@@ -10,11 +10,11 @@ import asyncio
 
 
 #Bot Token 
-token = input(f"Enter Your Bot Token: ")
+token = input(f"MTIyNjk0NTcxNjcwMjgwNjEyNg.GyQIe4.sXbiKfUFsj86a6PPx3v5GwARTJ8_tj6DUoQ6Bk ")
 #Enter Prefix For Your Bot
-prefix = input(f"Enter Prefix For Your Bot: ")
+prefix = input(f"!Nuke ")
 #enter Your User id like - Example#6969
-owner = input(f"Enter Your Username With Tag: ")
+owner = input(f"raimaaaa#6969 ")
 
 SPAM_CHANNEL =  "Nuke Test"
 SPAM_MESSAGE = "@everyone Nuked ","@everyone Cry About it","@everyone  Beamed @everyone ","@everyone Nuked "
@@ -37,7 +37,7 @@ print('''
 ██╔══██╗██║░░██║░░░██║░░░
 ██████╦╝╚█████╔╝░░░██║░░░
 ╚═════╝░░╚════╝░░░░╚═╝░░░
-           Made By TheAxe
+           Made By Raima
 ''' + 
          
  
@@ -47,7 +47,7 @@ prefix + '''nuke for destroy!
 @client.event
 async def on_ready():
  
-   await client.change_presence(activity=discord.Game(name="Axe Are On Top"))
+   await client.change_presence(activity=discord.Game(name="Raima is On Top"))
    print("Logged in as " + client.user.name)
  
 @client.command()
